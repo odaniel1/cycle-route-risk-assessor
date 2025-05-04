@@ -32,7 +32,8 @@ class StravaService:
 
     def get_route(self, route_id: int) -> List[Tuple[float, float]]:
         """
-        Fetch a route from Strava and return its geometry as a list of (lat, lon).
+        Fetch a route from Strava and return its geometry as a list
+        of (lat, lon).
 
         Args:
             route_id (int): The ID of the Strava route.
@@ -43,4 +44,4 @@ class StravaService:
         Raises:
             NotImplementedError: Method not yet implemented.
         """
-        raise NotImplementedError("StravaService.get_route is not implemented yet")
+        raise NotImplementedError("StravaService.get_route not implemented")
