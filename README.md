@@ -12,11 +12,10 @@ The tool was initially developed for use by Royal Leamington Spa Cycling Club.
 
 ## Workflow
 
-| Step | Role | Source | Status |
+| Step | Role | Path | Status |
 | ---- | ---  | ------ | ------ |
-| Whatsapp Listener | Listen for WhastApp messages containing Strava routes. | ```/services/whatsapp_listener/``` | Not Started |
-| Fetch Route | Access the route from the Strava API. | ```/services/strava_client/``` | In Progress |
-| Fetch Pins | Access Google Map Pins. | ```/services/map_loader/``` | Not Started |
-| Route Pins | Find pins on the route (with 5m) |  ```/services/geoprocessor/``` | Not Started |
-| HTML Generator | Generate an HTML map of the route with the pins. |  ```/services/html_generator/``` | Not Started |
-| Whatsapp Notifier | Send a response to Whatsapp with the HTML map. |  ```/services/notifier/``` | Not Started |
+| Whatsapp (Twilio) Responder | Listen for WhastApp messages and respond | ```/app/app.py``` | Hello World state |
+| Fetch Route | Access the route from the Strava API. | ```/services/strava_client.py``` | Not Started |
+| Fetch Pins | Access Google Map Pins. | ```/services/map_loader.py``` | Not Started |
+| Route Pins | Find pins on the route (with 5m) |  ```/services/geoprocessor.py``` | Not Started |
+| HTML Generator | Generate an HTML map of the route with the pins. |  ```/services/html_generator.py``` | Not Started |

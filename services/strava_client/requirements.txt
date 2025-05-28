@@ -1,2 +1,0 @@
-stravalib>=0.10.0
-pydantic>=1.8
