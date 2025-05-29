@@ -14,7 +14,7 @@ The tool was initially developed for use by Royal Leamington Spa Cycling Club.
 
 | Step | Role | Path | Status |
 | ---- | ---  | ------ | ------ |
-| Whatsapp (Twilio) Responder | Listen for WhastApp messages and respond | ```/app/app.py``` | Hello World state |
+| Whatsapp (Twilio) Responder | Listen for WhastApp messages and respond | ```/main.py``` | Hello World state |
 | Fetch Route | Access the route from the Strava API. | ```/services/strava_client.py``` | Not Started |
 | Fetch Pins | Access Google Map Pins. | ```/services/map_loader.py``` | Not Started |
 | Route Pins | Find pins on the route (with 5m) |  ```/services/geoprocessor.py``` | Not Started |
